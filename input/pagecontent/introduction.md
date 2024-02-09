@@ -1,3 +1,33 @@
+# stakeholders
+- eindgebruiker: 1 cliënt/ptiënt, 2 zorgverlener, 3 zorgaanbieder, 4 onderzoeker
+- Bestuurder, netwerkbeheer, leverancier
+# use case (boven de motorkap)
+- cliënt/patiënt heeft contact met meerdere zorgverleners
+# huidige situatie (onder de motorkap)
+- anamnese wordt uitgevraagd en ingevoerd
+- sturen vanuit A naar B, zorgmail, fax, papier
+- veronderstelde toestemming voor beschikbaar stellen (WGBO) 
+# problemen volgens eindgebruikers
+- cliënt/patiënt: geen zicht op wie gegevens kan zien, of heeft gezien.
+- Zorgverleners: gegevens overnemen, pdf
+- Zorgorganisaties: niet duidelijk wat de bron is
+- onderzoeker: hetzelfde gegeven komt vaker voor
+# wensen eindgebruikers
+- cliënt/patiënt beheert persoonlijk zorgnetwerk, inclusief mantelzorg en onderzoek
+- cliënt/patiënt beheert toestemming voor raadplegen per zorgpad
+- zorgverlener: raadplegen van integrale relevante gegevens bij de bron
+# mogelijke oplossingen
+- sturen vanuit A naar B, overnemen in systeem B (overtypen/importeren) met markering wie de bron is.
+    - nadeel: afhankelijk van leveranciers
+- Raadplegen bij de bron, een nieuw gegeven is er maar één keer.
+# voorgestelde oplossing als keuze
+- cliënt/patiënt beheert persoonlijk zorgnetwerk (met patiënt ID)
+- Afspraak voor werken met eenheid van taal (open EHR)
+- Zorgaanbieder stelt gegevens beschikbaar volgens eenheid van taal
+- Zorgaanbieder start view vanuit patiëntscherm (behandelrelatie)
+- Viewer activeert generieke functies met credentials
+
+
 # Probleemstelling
 In Nederland wordt hard gewerkt aan het beschikbaar maken van zorgdata, zodat zorgverleners deze kunnen hergebruiken in de zorg. Voor patient-toestemming en lokalisatie is door VWS voorgesteld/besloten om gebruik te maken van MITZ. In dit document wordt deze oplossing niet ter discussie gesteld, maar wordt een aanvullende oplossing voorgesteld om de zorg en samenwerking tussen zorgverleners transparanter en efficiënter te maken. 
 
